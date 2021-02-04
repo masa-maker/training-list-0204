@@ -1,6 +1,10 @@
 <div class="form-wrapper">
   <h1 class="top"><span class="big">T</span><span class="small">raining</span><span class="big">L</span><span class="small">ist</span></h1>
   <h2 class="login">Log in</h2>
+  <div class='login-flash-message'>
+      <%= flash[:notice] %>
+      <%= flash[:alert] %>
+    </div>
 
   <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
     <div class="field">

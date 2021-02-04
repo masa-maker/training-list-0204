@@ -32,3 +32,13 @@
 .big {
   font-size: 80px;
 }
+
+.errors {
+  font-size: 10px;
+  color: red;
+}
+
+.login-flash-message {
+  font-size: 10px;
+  color: red;
+}
