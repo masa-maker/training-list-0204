@@ -1,0 +1,44 @@
+.form-wrapper {
+  width: 80%;
+  height: 100%;
+  padding-top: 150px;
+  padding: 0.5em 1em;
+  padding: 0.5em 1em;
+  margin: 4em auto;
+  color: #333;
+  background: white;
+  border-top: solid 5px #5d627b;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  color: #333;
+  background: white;
+  border-top: solid 5px #5d627b;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  
+}
+
+.form-control {
+  width: 100%;
+}
+
+.top {
+  border-bottom: 2px solid #000;
+}
+
+.small {
+  font-size: 50px;
+  
+}
+
+.big {
+  font-size: 80px;
+}
+
+.errors {
+  font-size: 10px;
+  color: red;
+}
+
+.login-flash-message {
+  font-size: 10px;
+  color: red;
+}
